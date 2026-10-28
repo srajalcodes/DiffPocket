@@ -1,0 +1,50 @@
+
+# Python cache and packaging
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.env
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Model checkpoints and cached tensors (Zenodo)
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+
+# Structural data (excluded from GitHub)
+data/structures/*.pdb
+
+# Historical and experimental code
+legacy/
+
+# Manuscript tables (excluded from GitHub)
+manuscript/
+
+# Detailed prediction exports
+results/predictions/
+
+# Intermediate prediction files at results root
+results/*_pooled_predictions.csv
+results/*_predictions.csv
+results/*_raw.csv
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Local repository snapshots
+repository_tree.txt
+**/repository_tree.txt
+
+# Archives
+*.zip

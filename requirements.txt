@@ -1,0 +1,11 @@
+@"
+torch>=2.0.0
+torch_geometric>=2.3.0
+rdkit>=2023.3.1
+numpy>=1.23.0
+pandas>=2.0.0
+scipy>=1.10.0
+scikit-learn>=1.2.0
+matplotlib>=3.7.0
+tqdm>=4.65.0
+"@ | Out-File -FilePath "requirements.txt" -Encoding utf8
